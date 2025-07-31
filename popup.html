@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Not Defteri</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>📝 Not Defteri</h1>
+      <p>Hızlı notlarınızı kaydedin ve yönetin</p>
+    </div>
+
+    <div class="content">
+      <!-- Not Listesi Görünümü -->
+      <div id="notesView" class="notes-view">
+        <div class="notes-list" id="notesList">
+          <!-- Notlar buraya dinamik olarak eklenecek -->
+        </div>
+        <button class="add-note-btn" id="addNoteBtn">
+          ✨ Yeni Not Ekle
+        </button>
+      </div>
+
+      <!-- Not Düzenleme Görünümü -->
+      <div id="editorView" class="note-editor">
+        <div class="editor-header">
+          <button class="back-btn" id="backBtn">← Geri</button>
+          <button class="save-btn" id="saveNoteBtn">💾 Kaydet</button>
+        </div>
+        
+        <div class="input-group">
+          <label for="noteTitle">Başlık</label>
+          <input type="text" id="noteTitle" placeholder="Not başlığını girin...">
+        </div>
+        
+        <div class="input-group">
+          <label for="noteContent">İçerik</label>
+          <textarea id="noteContent" placeholder="Notunuzu buraya yazın..."></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Durum Mesajı -->
+  <div id="statusMessage" class="status-message"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
