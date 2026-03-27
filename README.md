@@ -1,4 +1,4 @@
-# Not Defteri - Chrome Eklentisi
+# FastNote - Chrome Extension
 
 Chrome toolbar'ından tek tıkla erişilen, hızlı ve modern bir not alma eklentisi.
 
@@ -87,3 +87,6 @@ MIT — Detaylar için [LICENSE](LICENSE) dosyasına bak.
 ## Geliştirici
 
 **Furkan** — [@furblood0](https://github.com/furblood0)
+
+---
+*The "F" in the icon stands for FastNote.*

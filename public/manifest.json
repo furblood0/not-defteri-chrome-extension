@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Not Defteri - Hızlı Notlar",
+  "name": "FastNote - Quick Notes",
   "version": "2.0.0",
-  "description": "Modern bir not alma Chrome eklentisi. Çoklu not desteği, kategoriler ve gelişmiş arayüz ile notlarınızı kolayca yönetin.",
+  "description": "A fast and modern note-taking Chrome extension. Search, pin notes, and switch between light and dark themes.",
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -25,5 +25,5 @@
   ],
   "author": "Furkan",
   "homepage_url": "https://github.com/furblood0/not-defteri-chrome-extension",
-  "short_name": "Not Defteri"
+  "short_name": "FastNote"
 }

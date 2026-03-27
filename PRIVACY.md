@@ -1,4 +1,4 @@
-# Privacy Policy — Not Defteri Chrome Extension
+# Privacy Policy — FastNote Chrome Extension
 
 **Last updated:** March 2026
 

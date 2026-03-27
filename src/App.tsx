@@ -77,7 +77,7 @@ export function App() {
             </button>
           ) : null}
           <div>
-            <h1 className="text-white font-bold text-base leading-none">Not Defteri</h1>
+            <h1 className="text-white font-bold text-base leading-none">FastNote</h1>
             {view === 'list' && !loading && (
               <p className="text-white/70 text-[11px] mt-0.5">
                 {noteCount === 0 ? 'Hiç not yok' : `${noteCount} not`}
