@@ -7,7 +7,7 @@ dist/
 # Chrome Extension paketleme
 *.crx
 *.pem
-*.zip
+not-defteri-*.zip
 
 # OS
 .DS_Store
