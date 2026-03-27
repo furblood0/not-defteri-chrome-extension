@@ -1,9 +1,15 @@
-# Chrome Extension specific
+# Bağımlılıklar
+node_modules/
+
+# Build çıktısı (kaynak koddan üretilir)
+dist/
+
+# Chrome Extension paketleme
 *.crx
 *.pem
 *.zip
 
-# OS generated files
+# OS
 .DS_Store
 .DS_Store?
 ._*
@@ -12,28 +18,23 @@
 ehthumbs.db
 Thumbs.db
 
-# IDE files
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# Logs
+# Loglar
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
+# TypeScript build cache
+*.tsbuildinfo
 
-# Coverage directory used by tools like istanbul
-coverage/
-
-# Temporary folders
+# Geçici klasörler
 tmp/
-temp/ 
+temp/
+coverage/
