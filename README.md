@@ -2,6 +2,14 @@
 
 Chrome toolbar'ından tek tıkla erişilen, hızlı ve modern bir not alma eklentisi.
 
+## Screenshots
+
+| Light Theme | Dark Theme |
+|:-----------:|:----------:|
+| ![Empty state](assets/ss1.png) | ![Dark theme](assets/ss3.png) |
+| ![Note list](assets/ss2.png) | ![Editor](assets/ss4.png) |
+| | ![Search](assets/ss5.png) |
+
 ## Özellikler
 
 - **Çoklu not** — Sınırsız not oluştur ve yönet
@@ -87,6 +95,3 @@ MIT — Detaylar için [LICENSE](LICENSE) dosyasına bak.
 ## Geliştirici
 
 **Furkan** — [@furblood0](https://github.com/furblood0)
-
----
-*The "F" in the icon stands for FastNote.*

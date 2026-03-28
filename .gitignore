@@ -7,7 +7,7 @@ dist/
 # Chrome Extension paketleme
 *.crx
 *.pem
-not-defteri-*.zip
+fastnote-v2.0.0.zip
 
 # OS
 .DS_Store
